@@ -1,6 +1,6 @@
 # us-visa-approval-prediction
 
-'''
+```
 bash
 
 
@@ -10,5 +10,4 @@ conda activate visa
 
 conda deactivate
 
-
-'''
+```
