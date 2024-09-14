@@ -5,8 +5,27 @@ bash
 
 
 conda create -n visa python=3.8 -y
+```
+
+```
+bash
 
 conda activate visa     
+```
+
+```
+bash
+pip install -r requirements.txt
+
+```
+```
+bash
+python app.py
+```
+
+```
+bash
+
 
 conda deactivate
 
@@ -29,5 +48,12 @@ conda deactivate
 bash
 
 export MONGODB_URL="mongodb+srv://<username>:<password>@cluster0.3zbhm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+
+
+export AWS_ACCESS_KEY_ID=""
+
+
+export AWS_SECRET_ACCESS_KEY=""
+
 
 ```
